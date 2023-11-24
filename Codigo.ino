@@ -38,3 +38,22 @@ void loop()
     delay(2000);
     numero++;
   }
+ switch(numero){
+  case 1: 
+  lcd.setCursor(0,0);
+  lcd.print("202239106.");
+  break;
+  case 2:
+  lcd.setCursor(0, 0);
+  lcd.print("202251303.");
+  break;
+  case 3:
+  lcd.setCursor(0, 0);
+  lcd.print("00000000.");
+  break;
+  case 4: 
+  lcd.setCursor(0,0);
+  lcd.print("FIN.......");
+
+  }
+} 
